@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://kit.fontawesome.com/3a8312bbb5.js" crossorigin="anonymous"></script>
+    <title>VC POPOVO 09</title>
+</head>
+
+<body>
+<header>
+    <div class="headerlogo">
+        <h2>Volleyball club</h2>
+        <h1>"Popovo 09"</h1>
+    </div>
+
+    <ul>
+        <li id="home"><a href="index.html">HOME</a></li>
+        <li id="about"><a href="news.html">NEWS</a></li>
+        <li id="team"><a href="team.html">TEAM</a></li>
+        <li id="contact"><a class="current" href="contact.html">CONTACT US</a></li>
+        <a href="https://www.facebook.com/PopovoVolleyballTeam" target="blank"><i id="facebook"
+                class="fa-brands fa-facebook-square"></i></a>
+    </ul>
+</header>
+
+<div class="myForm">
+    <form onsubmit = 'return validation()'>
+    <fieldset class="title">
+        <h2>CONTACT</h2>
+    </fieldset>
+    <div id="error_message"></div>
+    <fieldset class="half">
+        <fieldset class="item">
+            <label for="name">NAME</label>
+            <input type="text" id="name" 
+            placeholder="Type your name here">
+        </fieldset>
+        <fieldset class="item">
+            <label for="email">EMAIL</label>
+            <input type="text" id="email" placeholder="Type your email here">
+        </fieldset>
+    </fieldset>
+    <fieldset class="full">
+        <label for="message">MESSAGE</label>
+        <textarea id="message" placeholder="Type your message here"></textarea>
+    </fieldset>
+    <fieldset class="action">
+        <input type="submit" value="SEND MESSAGE">
+        <input type="reset" value="RESET">
+    </fieldset>
+    </form>
+    </div>
+
+<footer>
+    <div class="logo">
+        <h2>Volleyball club</h2>
+        <h1>"Popovo 09"</h1>
+    </div>
+    <div class="footerbar">
+        <ul>
+            <li id="home"><a href="index.html">HOME</a></li>
+            <li id="about"><a href="news.html">NEWS</a></li>
+            <li id="team"><a href="team.html">TEAM</a></li>
+            <li id="contact"><a class="current" href="contact.html">CONTACT US</a></li>
+            <a href="https://www.facebook.com/PopovoVolleyballTeam" target="blank"><i id="facebook"
+                    class="fa-brands fa-facebook-square"></i></a>
+        </ul>
+    </div>
+    
+</footer>
+    <script src="../JS/contactForm.js"></script>
+</body>
+
+</html>

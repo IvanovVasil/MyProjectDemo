@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://kit.fontawesome.com/3a8312bbb5.js" crossorigin="anonymous"></script>
+    <title>VC POPOVO 09</title>
+</head>
+
+<body>
+      <!--header start-->
+    <header>
+        <div class="headerlogo">
+        <h2>Volleyball club</h2>
+        <h1>"Popovo 09"</h1>
+        </div>
+
+        <ul>
+            <li id="home"><a class="current" href="index.html">HOME</a></li>
+            <li id="about"><a href="news.html">NEWS</a></li>
+            <li id="team"><a href="team.html">TEAM</a></li>
+            <li id="contact"><a href="contact.html">CONTACT US</a></li>
+            <a href="https://www.facebook.com/PopovoVolleyballTeam" target="blank"><i id="facebook" class="fa-brands fa-facebook-square"></i></a>
+        </ul>
+    </header>
+      <!--header end-->
+
+    <!--slider start-->
+    <div class="container">
+        <div class="slides-container">
+
+            <div class="slide-image">
+                <img src="../images/1.jpg" alt="">
+            </div>
+            <div class="slide-image">
+                <img src="../images/2.jpg" alt="">
+            </div>
+            <div class="slide-image">
+                <img src="../images/3.jpg" alt="">
+            </div>
+            
+        </div>
+    </div>
+    <!--slider end-->
+
+    <!--right button-->
+     <div class="next-btn"><i class="fas
+        fa-chevron-right"></i></div>
+
+        <!--left button-->
+        <div class="prev-btn"><i class="fas
+          fa-chevron-left"></i></div>
+
+        <div class="navigation-dots"></div>
+
+         <!--Count down time for next match start-->
+
+         <div class="timer">
+
+         <h1>Next Match:</h1>
+    
+              <div class="time">
+                    <p id="days">00</p>
+                    <small>Days</small>
+                </div>
+                <div class="time">
+                    <p id="hours">00</p>
+                    <small>Hours</small>
+                </div>
+                <div class="time">
+                    <p id="minutes">00</p>
+                    <small>Minutes</small>
+                </div>
+                <div class="time">
+                    <p id="seconds">00</p>
+                    <small>Seconds</small>
+                </div>
+            </div>
+        
+         <!--Count down time for next match end-->
+
+        <!--Information about the club start-->
+    <div class="information">
+        <h1>Welcome to the official website of volleyball club “Popovo 09".  Here you can read more about
+    VC
+    “Popovo 09”, the club, its team and ambitions.</h1>
+
+        <p>Volleyball Club "Popovo 09" is the men's volleyball team of the town of Popovo, which is the successor of VC "Popovo".
+
+        Competitors from the club compete in the northern "A" elite volleyball group of <span>Bulgaria <img src="../images/bg_karta.jpg" alt="" class="bulgaria" > </span> Chairman of the club is Todor Raichev from Targovishte.
+
+        In 1998, on the initiative of the Municipality of Popovo, VC "Popovo 09" was established, which trains children and adolescents up to 18 * years of age, with no restrictions for boys and girls.<p>
+    </div>
+        <!--Information about the club end-->
+
+        <div class="gallery-title">
+            <h2>Gallery</h2>
+        </div>
+<div class="full-img" id="fullImgBox">
+    <img src="../images/1_small.jpg" id="fullImg">
+    <span onclick="closeFullImg()">X</span>
+</div>
+        <div class="gallery">
+          <img src="../images/1_small.jpg" onclick="openFullImg(this.src)">
+          <img src="../images/2_small.jpg" onclick="openFullImg(this.src)">
+          <img src="../images/3_small.jpg" onclick="openFullImg(this.src)">
+          <img src="../images/4_small.jpg" onclick="openFullImg(this.src)">
+          <img src="../images/5_small.jpg" onclick="openFullImg(this.src)">
+          <img src="../images/6_small.jpg" onclick="openFullImg(this.src)">
+          <img src="../images/7_small.jpg" onclick="openFullImg(this.src)">
+          <img src="../images/8_small.jpg" onclick="openFullImg(this.src)">
+          <img src="../images/9_small.jpg" onclick="openFullImg(this.src)">
+          <img src="../images/10_small.jpg" onclick="openFullImg(this.src)">
+        </div>
+
+      <button id="toTheTop"><i class="fa-solid fa-circle-arrow-up"></i></button>
+        
+        <!--Sponsors start-->
+    <div class="sponsor">
+         <h1>Official Partner</h1>
+         <img src="../images/sponsor.jpg" alt="">
+         <h3>The main partner of the club is the municipality of Popovo</h3>
+    </div>
+            <!--Sponsors end-->
+
+        <!--Footer start-->
+    <footer>
+        <div class="logo">
+            <h2>Volleyball club</h2>
+            <h1>"Popovo 09"</h1>
+        </div>
+              <div class="footerbar">
+<ul>
+    <li id="home"><a class="current" href="index.html">HOME</a></li>
+    <li id="about"><a href="news.html">NEWS</a></li>
+    <li id="team"><a href="team.html">TEAM</a></li>
+    <li id="contact"><a href="contact.html">CONTACT US</a></li>
+    <a href="https://www.facebook.com/PopovoVolleyballTeam" target="blank"><i id="facebook"
+            class="fa-brands fa-facebook-square"></i></a>
+</ul>
+        </div>
+    </footer>
+    
+        <!--Footer end-->
+
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="../JS/index.js"></script>
+    <script src="../JS/scrollTop.js"></script>
+    <script src="../JS/timer.js"></script>
+    <script src="../JS/gallery.js"></script>
+
+</body>
+</html> 
